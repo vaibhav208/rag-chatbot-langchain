@@ -1,0 +1,33 @@
+
+RAG Chatbot – Sample Questions and Responses
+=============================================
+
+1. Q: What is Python?
+   A: Python is a programming language.
+
+2. Q: What is AI?
+   A: AI stands for Artificial Intelligence.
+
+3. Q: Define Machine Learning.
+   A: Machine Learning is a subset of AI that involves training algorithms.
+
+4. Q: Explain Deep Learning.
+   A: Deep Learning is a subset of ML that uses neural networks.
+
+5. Q: How does this chatbot work?
+   A: This chatbot uses a Retrieval-Augmented Generation pipeline. It retrieves relevant answers from a knowledge base (CSV) and uses an LLM to generate context-aware responses.
+
+6. Q: What libraries are used in this project?
+   A: The project uses LangChain, OpenAI API, FAISS, and pandas.
+
+7. Q: How is the data stored for retrieval?
+   A: The FAQ data is embedded using OpenAI’s embedding model and stored in a FAISS vector store for efficient semantic search.
+
+8. Q: Can this chatbot be extended to new domains?
+   A: Yes, simply update the dataset with relevant domain-specific content and retrain the embeddings.
+
+9. Q: What is the role of LangChain in this project?
+   A: LangChain provides modular tools to connect the retriever and the language model for a streamlined RAG pipeline.
+
+10. Q: Is the chatbot deployed?
+    A: Not yet, but it can be easily deployed using Streamlit for interactive web-based access.
